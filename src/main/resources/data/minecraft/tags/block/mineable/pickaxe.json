@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "chaosincube:alexandrite_ore_block",
+    "chaosincube:raw_alexandrite_ore_block",
+    "chaosincube:alexandrite_block",
+    "chaosincube:absolute_alexandrite_block"
+  ]
+
+}

@@ -1,0 +1,17 @@
+{
+  "item.chaosincube.alexandrite":"Alexandrite Gem",
+  "item.chaosincube.raw_alexandrite":"Raw Alexandrite Ore",
+  "item.chaosincube.magic_stick":"Magic Stick",
+  "item.chaosincube.katana":"Katana",
+
+  "block.chaosincube.alexandrite_block": "Block of Alexandrite",
+  "block.chaosincube.alexandrite_ore_block": "Block of Alexandrite Ore",
+  "block.chaosincube.raw_alexandrite_ore_block": "Block of Raw Alexandrite Ore",
+  "block.chaosincube.absolute_alexandrite_block": "Block of Absolute Alexandrite",
+  "block.chaosincube.microfon": "Microfon Statue",
+  "block.chaosincube.krtecek": "Krtecek",
+  "block.chaosincube.brnak": "Brnak Statue",
+
+  "creativetab.chaosincube.alexandrite_items": "Alexandrite Items",
+  "creativetab.chaosincube.alexandrite_blocks": "Alexandrite Blocks"
+}
