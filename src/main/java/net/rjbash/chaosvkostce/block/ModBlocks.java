@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rjbash.chaosvkostce.ChaosvKostce;
+import net.rjbash.chaosvkostce.block.custom.RichardBlock;
 import net.rjbash.chaosvkostce.item.ModItems;
 
 public class ModBlocks {
@@ -44,6 +45,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_ALEXANDRITE_ORE_BLOCK = registerBlock("raw_alexandrite_ore_block",
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> RICHARD_BLOCK = registerBlock("richard_block",
+            () -> new RichardBlock(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .friction(1)
+                    .jumpFactor(2)
+                    .sound(SoundType.WET_SPONGE)));
 
 
     public static final RegistryObject<Block> ABSOLUTE_ALEXANDRITE_BLOCK = registerBlock("absolute_alexandrite_block",

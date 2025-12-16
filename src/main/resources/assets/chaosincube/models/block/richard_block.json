@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "chaosincube:block/mc_project_hlava",
+    "south": "chaosincube:block/mc_project_hlava",
+    "north": "chaosincube:block/mc_project_zadek",
+    "east":  "chaosincube:block/mc_project_strana1",
+    "west":  "chaosincube:block/mc_project_strana2",
+    "up":    "chaosincube:block/mc_project_horek",
+    "down":  "chaosincube:block/mc_project_spodek"
+  }
+}

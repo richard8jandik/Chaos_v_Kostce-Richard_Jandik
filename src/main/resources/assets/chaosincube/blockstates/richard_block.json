@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "chaosincube:block/richard_block", "y": 180 },
+    "facing=south": { "model": "chaosincube:block/richard_block", "y": 0 },
+    "facing=west":  { "model": "chaosincube:block/richard_block", "y": 90 },
+    "facing=east":  { "model": "chaosincube:block/richard_block", "y": 270 }
+  }
+}
