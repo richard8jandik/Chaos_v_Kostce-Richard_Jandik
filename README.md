@@ -1,8 +1,38 @@
 # Školní projekt: CHAOS V KOSTCE 
 ## od Richarda Jandíka
-Tento  ročníkový projekt je **Minecraft Forge mod pro verzi 1.21.1**.  
-Cílem projektu bylo naučit se základy tvorby vlastních bloků, itemů, textur a v budoucnu i mobů
+# Cíl projektu
+Cílem ročníkového projektu je vytvořit vlastní Minecraft Forge mod pro verzi 1.21.1,
+který rozšíří hru o nové bloky a itemy s vlastním chováním, texturami a modely.
+
+# Použité návody a vlastní úpravy
+Projekt vychází z veřejně dostupných tutoriálů na modování Minecraft Forge.
+
+Moje vlastní práce:
+- návrh a tvorba vlastních textur,
+- návrh a tvorba 3D modelů v Blockbench,
+- úprava chování bloků (efekty, svícení, orientace),
+- rozšíření projektu o vlastní nápady mimo rámec tutoriálu.
+
+Oproti původním návodům:
+- byly přidány vlastní bloky a itemy,
+- byly změněny vlastnosti bloků,
+- byly řešeny chyby při práci s modely a texturami.
+
+Projekt slouží k osvojení:
+- práce s jazykem Java,
+- základů modování Minecraftu (Forge),
+- práce s 3D modely a texturami,
 <br></br>
+# Současný stav projektu
+Projekt je ve fázi funkčního prototypu.
+
+Aktuálně obsahuje:
+- vlastní bloky (klasické i 3D),
+- vlastní itemy,
+- vlastní creative taby,
+- experimentální funkce (svícení, efekty, orientace bloků).
+
+Některé prvky jsou záměrně nedokončené a budou dále rozpracovány ve druhém pololetí.
 <br></br>
 # Bloky
 ## Krychlard
