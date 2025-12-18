@@ -1,5 +1,5 @@
 # Školní projekt: CHAOS V KOSTCE 
-## od Richard Jandíka
+## od Richarda Jandíka
 Tento  ročníkový projekt je **Minecraft Forge mod pro verzi 1.21.1**.  
 Cílem projektu bylo naučit se základy tvorby vlastních bloků, itemů, textur a v budoucnu i mobů
 <br></br>
@@ -60,10 +60,16 @@ také u něho ještě není nastaveno aby z ostatních bloků okolo něj neděla
 ### Původní Model s Texturou:
 ![Původní návrh modelu krtka](images/Krtek.png) 
 <br></br>
+### Brňák Statue
+Brňák statue je blok u kterého mi nefungovalo absolutně nic, takže jsem nad ním zlomil hůl.
+Jeho čirá existence je akorát fialovo-černá ohavnost
+### Původní nápad s modelem a texturou
+![Socha něčeho co jsou pojmenoval Brno?](images/statue.png) 
+<br></br>
 ### Blok Mikrofonu
 Blok Mikrofonu je jediný 100% funkčí v rámci možností . . .
 Z důvodu toho že když se dají 4 tyto Bloky vedle sebe tak jsem mu dal schopnost svítit aby stín co mezzi sebou vytváří neexistoval.
-Bohužel to nepomohlo tak jsem se rozhodnul dát svítivost na vyšší čísla teď rozzařuje jeho okolí.
+Bohužel to nepomohlo a tak jsem se rozhodnul mu dát svítivost na vyšší čísla a teď rozzařuje jeho okolí.
 ![Blok Mikrofonu](images/MicShowCase.png) 
 <br></br>
 ### Prostor před Mikrofonem:
@@ -74,16 +80,34 @@ Prostor po Mikrofonu:
 ---
 <br></br>
 # Itemy
-## Katana z prvníhopohledu
+## Katana
+Katana byl pokus o vytvoření 3D itemu.
+Bohužel k meči má jen podobný tvar. Zatím jsem mu ještě nedokázal dát vlastnosti zbraně takže pokud ho hráč bude chtít použít jako zbraň tak bude sklamán z toho že jeho DMG se neliší od normálního bouchnutí rukou.
+<br></br>
+### Katana z prvníhopohledu:
 ![Katana z prvního pohledu](images/katana_1_osoba.png) 
----
-
-## Katana z druhé osoby
+<br></br>
+## Katana z druhé osoby:
 ![Katana ze druhého pohledu](images/Katana_2_osoba.png) 
-
----
-## Katana dropnutá na zem má trochu jinou velikost než v ruce
+<br></br>
+## Katana dropnutá na zem:
 ![Katana dropnutá na zem](images/katanaDrop.png) 
+<br></br>
+## Alexandrite Ore
+![Mx sme CHarlie Kirk](images/AlexandriteOreShowCase.png) 
+<br></br>
+## Alexandrite Ingot
+![My neseme ten plamen](images/AlexandriteIngotShowCase.png) 
+
+# Creative Taby 
+Jedině creative módu je možné celkově momentálně získat Cokoliv co jsem vytvořil takže jsem musel vytvořit nové taby jen na obsah mého módu 
+## Tab na Itemy:
+![Nechceme vaše tašky na tašky na tašky](images/ItemTab.png) 
+<br></br>
+## Tab na Bloky:
+![Nechceme vaše tašky na tašky na tašky](images/BlockTab.png) 
+<br></br>
+
 
 
 
