@@ -18,6 +18,7 @@ import net.rjbash.chaosvkostce.item.ModCreativeModeTabs;
 import net.rjbash.chaosvkostce.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.rjbash.chaosvkostce.sound.ModSounds;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ChaosvKostce.MOD_ID)
@@ -42,6 +43,7 @@ public class ChaosvKostce
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -86,6 +88,9 @@ public class ChaosvKostce
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            {
+                ItemBlockRenderTypes.setRenderLayer(ModBlocks.KRESLENA_KYTKA.get(), RenderType.cutout());
+            }
 
 
         }

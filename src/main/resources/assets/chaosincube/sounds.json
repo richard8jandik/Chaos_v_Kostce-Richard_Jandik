@@ -1,0 +1,32 @@
+{
+  "richard_block_break": {
+    "subtitle": "sounds.chaosincube.richard_block_break",
+    "sounds": [
+      "chaosincube:richard_block_break"
+    ]
+  },
+  "richard_block_hit": {
+    "subtitle": "sounds.chaosincube.richard_block_hit",
+    "sounds": [
+      "chaosincube:richard_block_hit"
+    ]
+  },
+  "richard_block_place": {
+    "subtitle": "sounds.chaosincube.richard_block_place",
+    "sounds": [
+      "chaosincube:richard_block_place"
+    ]
+  },
+  "richard_block_step": {
+    "subtitle": "sounds.chaosincube.richard_block_step",
+    "sounds": [
+      "chaosincube:richard_block_step"
+    ]
+  },
+  "richard_block_fall": {
+    "subtitle": "sounds.chaosincube.richard_block_fall",
+    "sounds": [
+      "chaosincube:richard_block_fall"
+    ]
+  }
+}

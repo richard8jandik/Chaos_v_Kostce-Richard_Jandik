@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "cross1": "chaosincube:block/kytka_jedna",
+    "cross2": "chaosincube:block/kytka_dva",
+    "particle": "chaosincube:block/kytka_jedna"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 7],
+      "to": [16, 16, 9],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#cross1" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#cross1" }
+      }
+    },
+    {
+      "from": [7, 0, 0],
+      "to": [9, 16, 16],
+      "faces": {
+        "west": { "uv": [0, 0, 16, 16], "texture": "#cross1" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#cross1" }
+      }
+    },
+
+    {
+      "from": [0, 0, 7],
+      "to": [16, 16, 9],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#cross2" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#cross2" }
+      }
+    },
+    {
+      "from": [7, 0, 0],
+      "to": [9, 16, 16],
+      "faces": {
+        "west": { "uv": [0, 0, 16, 16], "texture": "#cross2" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#cross2" }
+      }
+    }
+  ]
+}

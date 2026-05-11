@@ -36,6 +36,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MICROFON.get());
                         output.accept(ModBlocks.KRTECEK.get());
                         output.accept(ModBlocks.BRNAK.get());
+                        output.accept(ModBlocks.KRESLENA_KYTKA.get());
+
 
 
                         }).build());
