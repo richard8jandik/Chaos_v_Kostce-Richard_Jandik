@@ -2,6 +2,8 @@ package net.rjbash.chaosvkostce.item;
 
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,11 +25,19 @@ public class ModItems {
     public static final RegistryObject<Item> MAGICK_STICK = ITEMS.register("magic_stick",
             () -> new MagicStickItem(new Item.Properties().durability(64)));
 
-    public static final RegistryObject<Item> KATANA  = ITEMS.register("katana",
-            () -> new Item(new Item.Properties()
-                    .durability(64)));
 
 
+    public static final RegistryObject<Item> KATANA = ITEMS.register("katana",
+            () -> new SwordItem(
+                    Tiers.DIAMOND,
+                    new Item.Properties()
+                            .durability(64)
+                            .attributes(SwordItem.createAttributes(
+                                    Tiers.DIAMOND,
+                                    5,
+                                    -2.4f
+                            ))
+            ));
     public static final RegistryObject<Item> RICHARD_HELMET =
             ITEMS.register("richard_helmet",
                     () -> new ArmorItem(

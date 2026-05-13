@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.common.util.ForgeSoundType;
@@ -17,6 +18,8 @@ import net.rjbash.chaosvkostce.ChaosvKostce;
 import net.rjbash.chaosvkostce.block.custom.RichardBlock;
 import net.rjbash.chaosvkostce.item.ModItems;
 import net.rjbash.chaosvkostce.sound.ModSounds;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.level.block.FlowerBlock;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -56,10 +59,14 @@ public class ModBlocks {
                     .sound(ModSounds.RICHARD_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> KRESLENA_KYTKA = registerBlock("kreslena_kytka",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .instabreak()
-                    .noCollission()
-                    .sound(SoundType.GRASS)));
+            () -> new FlowerBlock(
+                    MobEffects.LUCK,
+                    0,
+                    BlockBehaviour.Properties.of()
+                            .instabreak()
+                            .noCollission()
+                            .sound(SoundType.GRASS)
+            ));
 
 
     public static final RegistryObject<Block> ABSOLUTE_ALEXANDRITE_BLOCK = registerBlock("absolute_alexandrite_block",
