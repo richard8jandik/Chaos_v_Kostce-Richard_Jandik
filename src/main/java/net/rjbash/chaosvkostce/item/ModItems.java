@@ -1,5 +1,6 @@
 package net.rjbash.chaosvkostce.item;
 
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,6 +26,15 @@ public class ModItems {
     public static final RegistryObject<Item> KATANA  = ITEMS.register("katana",
             () -> new Item(new Item.Properties()
                     .durability(64)));
+
+
+    public static final RegistryObject<Item> RICHARD_HELMET =
+            ITEMS.register("richard_helmet",
+                    () -> new ArmorItem(
+                            ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL,
+                            ArmorItem.Type.HELMET,
+                            new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))
+                    ));
 
 
 
