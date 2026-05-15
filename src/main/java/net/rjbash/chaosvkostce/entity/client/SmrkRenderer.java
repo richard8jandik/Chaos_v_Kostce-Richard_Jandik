@@ -16,7 +16,7 @@ public class SmrkRenderer extends MobRenderer<SmrkEntity, SmrkModel<SmrkEntity>>
 
     @Override
     public ResourceLocation getTextureLocation(SmrkEntity pEntity) {
-        return ResourceLocation.fromNamespaceAndPath(ChaosvKostce.MOD_ID, "textures/entity/smrk/smrk_zen");
+        return ResourceLocation.fromNamespaceAndPath(ChaosvKostce.MOD_ID, "textures/entities/smrk/oak.png");
     }
     @Override
     public void render(SmrkEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack pPoseStack,

@@ -34,7 +34,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> KRTECEK = registerBlock("krtecek",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .noCollission()
+                    .noOcclusion()
+                    .instabreak()
+                    .sound(SoundType.WOOL)));
 
     public static final RegistryObject<Block> BRNAK = registerBlock("brnak",
             () -> new Block(BlockBehaviour.Properties.of()

@@ -25,13 +25,13 @@ public class SmrkEntity extends Animal {
     }
     @Override
     protected void registerGoals() {
-        this.goalSelector.addGoal(1, new PanicGoal(this, 2.0));
+        this.goalSelector.addGoal(1, new PanicGoal(this, 1.0));
         this.goalSelector.addGoal(2, new BreedGoal(this, 1.0));
         this.goalSelector.addGoal(3, new TemptGoal(this, 1.25, stack -> stack.is(ModItems.SWEET_DELICIOUS_DISC.get()), false));
 
         this.goalSelector.addGoal(4, new FollowParentGoal(this, 1.25));
 
-        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1.0));
+        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 0.2));
         this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 6.0F));
         this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
     }
@@ -39,7 +39,7 @@ public class SmrkEntity extends Animal {
     public static AttributeSupplier.Builder createAttributes() {
         return Animal.createLivingAttributes()
                 .add(Attributes.MAX_HEALTH, 15D)
-                .add(Attributes.MOVEMENT_SPEED, 1.D)
+                .add(Attributes.MOVEMENT_SPEED, 0.2D)
                 .add(Attributes.FOLLOW_RANGE, 24D);
     }
 
