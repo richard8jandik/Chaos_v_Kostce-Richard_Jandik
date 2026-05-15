@@ -14,6 +14,7 @@ Hlavní změny a vylepšení:
 - vytvořena vlastní entita (mob) s animacemi a možností množit
 
 Projekt se tak posunul od experimentálních modelů k více funkčnímu a stabilnímu módu.
+
 [Ukázka projektu na YouTube]([https://www.youtube.com/watch?v=XXXXXXX](https://youtu.be/IKLM0r0v4P4))
 
 
