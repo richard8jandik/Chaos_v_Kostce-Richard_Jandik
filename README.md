@@ -11,7 +11,7 @@ Hlavní změny a vylepšení:
 - implementována možnost nosit Richard Block jako helmici (equip systém)
 - přidána experimentální kytka vytvořená ruční kresbou a následným skenem; textura byla následně upravena v grafickém editoru kvůli kvalitě
 - možnost umístit kytku do květináče jako dekorativní prvek
-- vytvořena vlastní entita (mob) s animacemi a základním chováním
+- vytvořena vlastní entita (mob) s animacemi a možností množit
 
 Projekt se tak posunul od experimentálních modelů k více funkčnímu a stabilnímu módu.
 
