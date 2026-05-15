@@ -15,8 +15,9 @@ Hlavní změny a vylepšení:
 
 Projekt se tak posunul od experimentálních modelů k více funkčnímu a stabilnímu módu.
 
+[![Ukázka projektu](https://img.youtube.com/vi/XXXXXXX/0.jpg)]([https://www.youtube.com/watch?v=XXXXXXX](https://youtu.be/IKLM0r0v4P4))
 [Ukázka projektu na YouTube]([https://www.youtube.com/watch?v=XXXXXXX](https://youtu.be/IKLM0r0v4P4))
-
+https://youtu.be/IKLM0r0v4P4
 
 
 # Zdroje 
