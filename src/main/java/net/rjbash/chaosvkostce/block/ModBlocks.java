@@ -4,10 +4,7 @@ import com.google.common.base.Supplier;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -67,6 +64,13 @@ public class ModBlocks {
                             .noCollission()
                             .sound(SoundType.GRASS)
             ));
+    public static final RegistryObject<Block> POTTED_KRESLENA_KYTKA =
+            BLOCKS.register("potted_kreslena_kytka",
+                    () -> new FlowerPotBlock(
+                            () -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                            ModBlocks.KRESLENA_KYTKA,
+                            BlockBehaviour.Properties.of().instabreak().noOcclusion()
+                    ));
 
 
     public static final RegistryObject<Block> ABSOLUTE_ALEXANDRITE_BLOCK = registerBlock("absolute_alexandrite_block",

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rjbash.chaosvkostce.ChaosvKostce;
 import net.rjbash.chaosvkostce.item.custom.MagicStickItem;
+import net.rjbash.chaosvkostce.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -45,6 +46,9 @@ public class ModItems {
                             ArmorItem.Type.HELMET,
                             new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))
                     ));
+
+    public static final RegistryObject<Item>  SWEET_DELICIOUS_DISC = ITEMS.register("sweet_delicious_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SWEET_DELICIOUS_KEX).stacksTo(1)));
 
 
 

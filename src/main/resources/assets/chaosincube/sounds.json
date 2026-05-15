@@ -28,5 +28,15 @@
     "sounds": [
       "chaosincube:richard_block_fall"
     ]
+  },
+
+
+  "sweet_delicious": {
+    "sounds": [
+      {
+        "name": "chaosincube:sweet_delicious",
+        "stream": true
+      }
+    ]
   }
 }

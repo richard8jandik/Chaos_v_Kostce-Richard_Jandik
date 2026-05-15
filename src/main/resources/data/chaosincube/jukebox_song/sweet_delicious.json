@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.chaosincube.sweet_delicious_disc.desc"
+  },
+  "length_in_seconds": 258.0,
+  "sound_event": "chaosincube:sweet_delicious"
+}

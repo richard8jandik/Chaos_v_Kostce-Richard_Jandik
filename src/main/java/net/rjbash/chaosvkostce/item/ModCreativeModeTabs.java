@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MAGICK_STICK.get());
                         output.accept(ModItems.KATANA.get());
                         output.accept(ModItems.RICHARD_HELMET.get());
+                        output.accept(ModItems.SWEET_DELICIOUS_DISC.get());
 
                         }).build()); public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get()))
@@ -38,6 +39,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.KRTECEK.get());
                         output.accept(ModBlocks.BRNAK.get());
                         output.accept(ModBlocks.KRESLENA_KYTKA.get());
+
 
 
 

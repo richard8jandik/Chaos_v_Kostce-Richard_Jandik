@@ -1,7 +1,10 @@
 package net.rjbash.chaosvkostce.sound;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.item.JukeboxSong;
 import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,7 +30,8 @@ public class ModSounds {
     public static final ForgeSoundType RICHARD_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
             ModSounds.RICHARD_BLOCK_BREAK, ModSounds.RICHARD_BLOCK_STEP,ModSounds.RICHARD_BLOCK_PLACE,ModSounds.RICHARD_BLOCK_HIT,
             ModSounds.RICHARD_BLOCK_FALL);
-
+    public static final  RegistryObject<SoundEvent> SWEET_DELICIOUS = registerSoundEvent("sweet_delicious");
+    public static final ResourceKey<JukeboxSong> SWEET_DELICIOUS_KEX = ResourceKey.create(Registries.JUKEBOX_SONG,ResourceLocation.fromNamespaceAndPath(ChaosvKostce.MOD_ID, "sweet_delicious"));
 
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
