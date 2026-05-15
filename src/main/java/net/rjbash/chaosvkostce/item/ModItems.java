@@ -4,11 +4,13 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rjbash.chaosvkostce.ChaosvKostce;
+import net.rjbash.chaosvkostce.entity.ModEntities;
 import net.rjbash.chaosvkostce.item.custom.MagicStickItem;
 import net.rjbash.chaosvkostce.sound.ModSounds;
 
@@ -49,6 +51,10 @@ public class ModItems {
 
     public static final RegistryObject<Item>  SWEET_DELICIOUS_DISC = ITEMS.register("sweet_delicious_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SWEET_DELICIOUS_KEX).stacksTo(1)));
+
+    public static final RegistryObject<Item>  SMRK_SPAWN_EGG = ITEMS.register("smrk_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SMRK, 0x1F1F1F, 0xF551FC, new Item.Properties() ));
+
 
 
 

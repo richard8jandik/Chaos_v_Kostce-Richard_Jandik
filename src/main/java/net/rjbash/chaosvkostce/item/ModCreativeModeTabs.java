@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KATANA.get());
                         output.accept(ModItems.RICHARD_HELMET.get());
                         output.accept(ModItems.SWEET_DELICIOUS_DISC.get());
+                        output.accept(ModItems.SMRK_SPAWN_EGG.get());
 
                         }).build()); public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get()))
