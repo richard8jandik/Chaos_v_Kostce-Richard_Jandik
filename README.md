@@ -15,7 +15,7 @@ Hlavní změny a vylepšení:
 
 Projekt se tak posunul od experimentálních modelů k více funkčnímu a stabilnímu módu.
 
-
+https://youtu.be/IKLM0r0v4P4
 
 
 # Zdroje 
